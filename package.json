@@ -1,0 +1,15 @@
+{
+  "name": "webpack-watch-cli-options-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chase Adams <realchaseadams@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "webpack-watch-poll-cfg": "webpack --watch --config webpack-poll.config.js",
+    "webpack-watch-poll-cli": "webpack --watch --watch-poll=500 --config webpack-basic.config.js"
+  },
+  "dependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
